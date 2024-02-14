@@ -31,7 +31,7 @@ The goal of this project was to familiarize myself with Terraform. Terraform is 
 ![elasticip](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/77375599-1311-4b77-a870-6180d2dedac2)
 
 ### Step 10: EC2 instance
-![ec2](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/9e6a0912-7abd-4bbe-a736-4ef105f5ff64)
+![create ec2 server](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/980502a8-1e2a-48ce-aca8-0b04a3715e29)
 
 ### Step 11: Outputs
 ![outputs](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/11c087e1-8d90-458a-a0a9-fdd678b0a8b9)
