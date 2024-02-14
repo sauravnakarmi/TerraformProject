@@ -58,3 +58,5 @@ Amazon EC2 instances are virtual servers provided by AWS.
 
 Outputs server id, public and private ip
 
+## Conclusion
+In today's dynamic cloud computing landscape, the ability to efficiently manage and provision infrastructure is crucial for organizations striving to stay agile and competitive. Adopting Terraform as the infrastructure as code (IaC) tool offers a multitude of benefits that can significantly enhance the efficiency, reliability, and scalability of AWS projects.
