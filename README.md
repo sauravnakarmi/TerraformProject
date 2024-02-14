@@ -36,16 +36,25 @@ We need to add an association into our route table for the subnet we just create
 ### Step 7: Security Group
 ![create security group](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/30b6c3c2-58e2-410a-9bea-a0f50f5c5120)
 
-Security groups are used to allow traffic from different sources into and out of the system. 
+Security groups are used to allow traffic from different sources into and out of the system. In this case we are allowing traffic into port 443, 80, and 22. These being SSH, HTTP, and HTTPS respectively. We are also allowing all ports in the egress direction. 
 
 ### Step 8: Network Interface
 ![create network interface](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/b10d759e-afb5-4412-a987-44c32f520f2c)
 
+Network interfaces are fundamental for connecting instances to the network, enabling them to send and receive traffic. 
+
 ### Step 9: Elastic Ip 
 ![elasticip](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/77375599-1311-4b77-a870-6180d2dedac2)
+
+Elastic IP addresses are static IP addresses designed for dynamic cloud computing. They are primarily used for the purpose of persistent IP address for resources like EC2 instances. 
 
 ### Step 10: EC2 instance
 ![create ec2 server](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/980502a8-1e2a-48ce-aca8-0b04a3715e29)
 
+Amazon EC2 instances are virtual servers provided by AWS.
+
 ### Step 11: Outputs
 ![outputs](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/11c087e1-8d90-458a-a0a9-fdd678b0a8b9)
+
+Outputs server id, public and private ip
+
