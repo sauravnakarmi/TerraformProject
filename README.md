@@ -6,23 +6,37 @@ The goal of this project was to familiarize myself with Terraform. Terraform is 
 ### Step 1: Assign Provider
 ![assign provider](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/eac785d2-6770-4f6e-ae0b-421b89ed55cf)
 
+Terraform works with various other cloud services such as AWS, Azure, and Google Cloud Platform. For our use case we will be using AWS.
+
 ### Step 2: Create A VPC
 ![associate subnet with route table](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/2dfda096-b6d6-4356-8448-fdb3dd1a591a)
+
+VPC gives us a place to store our infrastructure in a private manner on the cloud. 
 
 ### Step 3: Create an Internet Gateway
 ![create internet gateway](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/c500bc7c-bfa7-46ee-95f3-2a173b2b9b1b)
 
+Internet Gateway provides internet access to our VPC. 
+
 ### Step 4: Create Custom Route Table
 ![create custom route table](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/d182e7c2-86aa-46a9-803f-2b972a0f329c)
+
+Route table is used to route traffic from the internet into the internet gate way and will also eventually send out traffic from the subnet to the internet through the internet gateway. 
 
 ### Step 5: Subnet
 ![create subnet](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/9bec3f59-3944-45be-903e-3b10f6dab42e)
 
+A subnet acts as a range of ip addresses from the VPC and helps to manage traffic within the VPC. We will use the subnet to launch our EC2 instance and also to route traffic from our internet gateway. 
+
 ### Step 6: Associate Subnet with Route Table
 ![associate subnet with route table](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/2dfda096-b6d6-4356-8448-fdb3dd1a591a)
 
+We need to add an association into our route table for the subnet we just created. 
+
 ### Step 7: Security Group
 ![create security group](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/30b6c3c2-58e2-410a-9bea-a0f50f5c5120)
+
+Security groups are used to allow traffic from different sources into and out of the system. 
 
 ### Step 8: Network Interface
 ![create network interface](https://github.com/sauravnakarmi/TerraformProject/assets/70821330/b10d759e-afb5-4412-a987-44c32f520f2c)
